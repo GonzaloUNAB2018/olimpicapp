@@ -1,0 +1,29 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Ingrese Email y Password</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input name="email" type="email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input name="password" type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Confirme Password</ion-label>
+      <ion-input name="c_password" type="password" [(ngModel)]="c_password"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <button ion-button (click)="registro()" full>Registro</button>
+
+</ion-content>

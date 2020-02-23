@@ -1,0 +1,18 @@
+page-editar-datos-perfil {
+
+    .profile-image{
+        border-radius: 25px;
+        width: 200px;
+        display:block;
+        margin:auto;
+    }
+
+    #logout_btn {
+        background-color: transparent;
+    }
+    #my_ion-icon {
+        font-size: 2em;
+        color: color($colors, primary)
+    }
+
+}

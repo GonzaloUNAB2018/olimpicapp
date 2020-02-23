@@ -1,0 +1,22 @@
+<ion-content padding>
+
+  <ion-card class="card-login" padding>
+    <img src="./assets/imgs/olympic.png">
+    <p class="title_login">OlimpicApp</p>
+  </ion-card>
+
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input name="email" type="email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input name="password" type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <br>
+  <button ion-button color="primary" full (click)="login()">INICIAR</button>
+  <br>
+  <button ion-button color="secondary" full (click)="registro()">REGISTRARSE</button>
+</ion-content>
